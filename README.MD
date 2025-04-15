@@ -1,6 +1,8 @@
 This is the input mask for the personnel deployment planning of one person on one day.
 The user enters a valid workplace, the start time and end time of a shift and a comment. The comment is optional or mandatory, depending on the workplace. The planned person can have one or more shifts in one day, e.g. 10:00-13:00, then a break and from 14:00 to 20:00.
 
+For the simplification there is no backend, no API, all data you need for this task is stored in variables defined in the code.
+
 Your task is to implement the following requirements:
 
 1. For workplaces K1, K2, AE, MK0, MK1, EI, SP, HU, DE, US, HK, DG, a comment longer than 10 characters must be entered, otherwise the field should be displayed as incorrect. 
